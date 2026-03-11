@@ -4,16 +4,18 @@
 * [Getting Started](docs/getting-started.md)
 
 ## Components
+
 * [Surfaces & Cards](docs/components/surfaces-and-cards.md)
 * [Buttons](docs/components/buttons.md)
 * [Inputs & Controls](docs/components/controls.md)
 * [Navigation](docs/components/navigation.md)
 
 ## Styling
+
 * [Palettes](docs/styling/palettes.md)
-* [Custom Effects](docs/styling/effects.md)
+* [Custom Effects](styling/custom-effects.md)
 
----
+***
 
-* [Publishing Guide](docs/publishing.md)
-* [License](LICENSE)
+* [Publishing Guide](publishing-guide.md)
+* [License](license.md)
