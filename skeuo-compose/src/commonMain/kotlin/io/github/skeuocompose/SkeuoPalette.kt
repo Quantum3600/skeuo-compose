@@ -1,4 +1,4 @@
-package io.github.skeuomorph
+package io.github.skeuocompose
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
@@ -45,9 +45,6 @@ object SkeuoPalettes {
         content = Color(0xFF152A1F),
     )
 
-    /**
-     * Deep royal blue, reminiscent of high-end consumer electronics.
-     */
     val RoyalBlue = SkeuoPalette(
         highlight = Color(0xFF4A90E2),
         midTone = Color(0xFF357ABD),
@@ -58,9 +55,6 @@ object SkeuoPalettes {
         content = Color(0xFFFFFFFF),
     )
 
-    /**
-     * Vibrant crimson red, perfect for sporty or energetic devices.
-     */
     val Crimson = SkeuoPalette(
         highlight = Color(0xFFFF5252),
         midTone = Color(0xFFD32F2F),
@@ -71,9 +65,6 @@ object SkeuoPalettes {
         content = Color(0xFFFFFFFF),
     )
 
-    /**
-     * Premium brushed gold, luxury finish for flagship devices.
-     */
     val Gold = SkeuoPalette(
         highlight = Color(0xFFFFE082),
         midTone = Color(0xFFFFC107),
@@ -84,9 +75,6 @@ object SkeuoPalettes {
         content = Color(0xFF3E2723),
     )
 
-    /**
-     * Classic brushed aluminum or chrome palette, perfect for metallic devices.
-     */
     val Metallic = SkeuoPalette(
         highlight = Color(0xFFFFFFFF),
         midTone = Color(0xFFE0E0E0),
@@ -97,9 +85,6 @@ object SkeuoPalettes {
         content = Color(0xFF212121),
     )
 
-    /**
-     * Classic iPod white with subtle gray tones.
-     */
     val IPodClassic = SkeuoPalette(
         highlight = Color(0xFFFFFFFF),
         midTone = Color(0xFFF2F2F2),
@@ -110,9 +95,6 @@ object SkeuoPalettes {
         content = Color(0xFF333333),
     )
 
-    /**
-     * Deep black for retro electronic devices like radios or TV remotes.
-     */
     val RetroBlack = SkeuoPalette(
         highlight = Color(0xFF424242),
         midTone = Color(0xFF212121),
@@ -123,9 +105,6 @@ object SkeuoPalettes {
         content = Color(0xFFE0E0E0),
     )
 
-    /**
-     * Dark mode palette inspired by carbon or matte black finishes.
-     */
     val Carbon = SkeuoPalette(
         highlight = Color(0xFF3A3A3A),
         midTone = Color(0xFF2C2C2C),
@@ -134,5 +113,31 @@ object SkeuoPalettes {
         border = Color(0xFF080808),
         textureTint = Color(0xFF252525),
         content = Color(0xFFF5F5F5),
+    )
+
+    /**
+     * Retro keyboard blue, inspired by classic custom keycaps.
+     */
+    val RetroBlue = SkeuoPalette(
+        highlight = Color(0xFF8EAFCA),
+        midTone = Color(0xFF5B8DAE),
+        lowTone = Color(0xFF416B87),
+        shadow = Color(0xFF2C495D),
+        border = Color(0xFF1A2E3B),
+        textureTint = Color(0xFF4A7996),
+        content = Color(0xFFFFFFFF),
+    )
+
+    /**
+     * Retro keyboard orange, warm amber tone.
+     */
+    val RetroOrange = SkeuoPalette(
+        highlight = Color(0xFFEBB461),
+        midTone = Color(0xFFD98C1D),
+        lowTone = Color(0xFFB06F14),
+        shadow = Color(0xFF80500A),
+        border = Color(0xFF543405),
+        textureTint = Color(0xFFC47D18),
+        content = Color(0xFFFFFFFF),
     )
 }
